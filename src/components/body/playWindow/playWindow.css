@@ -1,0 +1,13 @@
+.game-img {
+    height: 11em;
+    width:11em;
+    padding:1em;
+    border: solid 1px black;
+    background-color: white;
+}
+
+.game-img:hover {
+    cursor: pointer;
+    border:solid 2px red;
+    background-color: ivory;
+}

@@ -1,0 +1,17 @@
+h1 {
+    font-size:27px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.myNav {
+    background-color: cadetblue;
+    position: sticky;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+#status-host {
+    color:red;
+}
