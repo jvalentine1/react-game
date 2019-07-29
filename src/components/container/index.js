@@ -15,7 +15,8 @@ class Container extends React.Component {
         status: "Click An Image To Begin!",
         picsRandom: [],
         clicked: [],
-        redId: ""
+        redId: "", 
+        lossEffect: ""
     };
 
 componentDidMount() {
@@ -24,6 +25,7 @@ componentDidMount() {
 
 randomizeImages = () => {
     this.setState({ redId: "" });
+    this.setState({ lossEffect: "" });
      
     var currentIndex = Images.length, temporaryValue, randomIndex;
 
@@ -64,7 +66,8 @@ if(this.scoreCallback(check)) {
         score: 0,
         clicked: [],
         status: "Incorrect Guess! You Lose!",
-        redId:"status-host"
+        redId:"status-host",
+        lossEffect:"lose-swing"
         });
     } else {
         this.setState({ 
@@ -96,7 +99,7 @@ scoreCallback = check => {
                 status={this.state.status}
                 id={this.state.redId}
                 />
-                <Host>
+                <Host id={this.state.lossEffect}>
                     {this.state.picsRandom.map(pic => {
                     return (
                       <Play 
