@@ -4,8 +4,9 @@ h1 {
 }
 
 .myNav {
-    background-color: #53a7ea;;
+    background-color: #4abde7;
     position: sticky;
+    padding-top:10px;
 }
 
 .logo {

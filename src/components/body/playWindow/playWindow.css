@@ -8,10 +8,10 @@
 
 .game-img:hover {
     cursor: pointer;
-    border:solid 2px red;
+    border:solid 2px #ffb531;
     background-color: ivory;
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
-        box-shadow: inset 0 0 0 25px #53a7ea;
+        box-shadow: inset 0 0 0 25px #4abde7;
 }
