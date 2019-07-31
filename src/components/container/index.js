@@ -39,9 +39,7 @@ randomizeImages = () => {
         Images[randomIndex] = temporaryValue;
     }
 
-    this.setState({ picsRandom: Images }, () => {
-        console.log(this.state.picsRandom);
-    });
+    this.setState({ picsRandom: Images });
     
 }
 
